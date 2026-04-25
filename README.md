@@ -52,17 +52,32 @@ This project builds a complete data-driven analytics ecosystem to measure, predi
     Open powerbi/Growth_Visualization_Dashboard.pbix in PowerBI Desktop
 ---
 ## 📁 Project Structure
- Data_Driven_Social_Engagement_Initiative/
-  ├── data/processed/                  ← Cleaned & enriched datasets
-  ├── src/                             ← All 7 core modules
-  ├── dashboard/app.py                 ← Interactive Streamlit Dashboard
-  ├──powerbi/Growth_Visualization_Dashboard.pbix
-  PowerBI dashboard
-  ├── reports/                         ← Strategy report, A/B results, recommendations
-  ├── models/                          ← Saved ML models
-  ├── requirements.txt
-  ├── README.md
-  └── Strategy_Report.docx
+
+```bash
+Data_Driven_Social_Engagement_Initiative/
+├── data/
+│   └── processed/                  ← Cleaned & enriched datasets (with virality & sentiment)
+├── src/                            ← All 7 Core Modules
+│   ├── content_performance_tracker.py
+│   ├── virality_prediction_engine.py
+│   ├── audience_sentiment_analyzer.py
+│   ├── ab_testing_framework.py
+│   ├── engagement_recommender.py
+│   ├── growth_visualization.py
+│   └── trend_forecasting_module.py
+├── dashboard/
+│   └── app.py                      ← Interactive Streamlit Dashboard (Main Deliverable)
+├── powerbi/
+│   └── Growth_Visualization_Dashboard.pbix   ← PowerBI Dashboard
+├── reports/                        ← All deliverables & insights
+│   ├── Strategy_Report.docx
+│   ├── ab_test_results.csv
+│   ├── weekly_optimization_recommendations.csv
+│   └── trend_forecast_next_week.csv
+├── models/                         ← Saved ML Models
+├── requirements.txt
+├── README.md
+└── Strategy_Report.docx
 ---
 ## 📦 Deliverables (All Completed)
  1. Fully functional Analytics Dashboard → dashboard/app.py
