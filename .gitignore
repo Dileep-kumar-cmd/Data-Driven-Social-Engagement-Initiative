@@ -1,0 +1,39 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PowerBI temporary files
+*.pbix.cache
+*.pbi
+
+# Data files (optional - remove if you want to upload raw data)
+# data/raw/*
+# *.csv
+
+# Logs and temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# Environment variables (if you create any later)
+.env
+
+# Streamlit specific
+.streamlit/
+
+# VS Code settings
+.vscode/
+# Large files that exceed GitHub limit
+powerbi/*.pbix
+data/processed/*.csv

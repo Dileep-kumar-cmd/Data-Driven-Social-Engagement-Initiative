@@ -1,0 +1,13 @@
+group_col,groups,metric,mean_a,mean_b,t_statistic,p_value,significant
+format,"['Short', 'Long']",viral_coefficient,1.349,3.122,-8.174,0.0,True
+format,"['Short', 'Long']",engagement_rate,4.287,4.135,5.469,0.0,True
+format,"['Short', 'Long']",saves,20.846,64.195,-88.082,0.0,True
+format,"['Short', 'Long']",shares,7.107,21.749,-86.259,0.0,True
+posting_time,"['Evening', 'Morning']",viral_coefficient,2.114,2.384,-1.238,0.21574,False
+posting_time,"['Evening', 'Morning']",engagement_rate,4.183,4.245,-2.201,0.02772,True
+posting_time,"['Evening', 'Morning']",saves,42.056,43.081,-1.843,0.06527,False
+posting_time,"['Evening', 'Morning']",shares,14.267,14.622,-1.859,0.06305,False
+hook_type,"['Visual', 'Text']",viral_coefficient,2.167,2.395,-0.889,0.37387,False
+hook_type,"['Visual', 'Text']",engagement_rate,4.23,4.165,2.17,0.03004,True
+hook_type,"['Visual', 'Text']",saves,42.838,41.771,1.818,0.06909,False
+hook_type,"['Visual', 'Text']",shares,14.537,14.17,1.81,0.07037,False
