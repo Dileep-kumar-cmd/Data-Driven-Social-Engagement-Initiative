@@ -35,5 +35,5 @@ Thumbs.db
 # VS Code settings
 .vscode/
 # Large files that exceed GitHub limit
-powerbi/*.pbix
-data/processed/*.csv
+#powerbi/*.pbix
+#data/processed/*.csv
